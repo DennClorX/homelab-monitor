@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homelab Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Homelab</h1>
+        <a id="github-link" href="https://github.com/DennClorX/homelab-monitor" target="_blank" rel="noopener noreferrer" title="My GitHub">
+            <button id="github-btn" class="action-btn"></button>
+        </a>
+    </header>
+
+    <main>
+        <div class="settings">
+            <div class="auto-ping-control">
+                <label for="auto-ping-interval">Auto Ping (minutes):</label>
+                <input type="number" id="auto-ping-interval" min="1" value="5">
+            </div>
+            <div class="layout-control">
+                <label for="grid-columns">Columns:</label>
+                <select id="grid-columns">
+                    <option value="auto">Auto</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="main-actions">
+                <button id="theme-toggle" class="action-btn" title="Change Theme"></button>
+                <button id="ping-all-btn" class="action-btn" title="Ping All"></button>
+                <button id="add-service-btn" title="Add Service"></button>
+            </div>
+        </div>
+        <div id="service-container"></div>
+    </main>
+
+    <!-- Add/Edit Modal -->
+    <div id="service-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Add Service</h2>
+            <form id="service-form">
+                <input type="hidden" id="service-id">
+                <label for="service-name">Name:</label>
+                <input type="text" id="service-name" required>
+                
+                <label for="service-type">Type:</label>
+                <select id="service-type">
+                    <option value="url">URL</option>
+                    <option value="ip">IP:Port / IP</option>
+                </select>
+                
+                <label for="service-target">Target:</label>
+                <input type="text" id="service-target" placeholder="https://example.com" required>
+                
+                <button type="submit">Save Service</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

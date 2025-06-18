@@ -1,0 +1,70 @@
+{
+  "a1b2c3d4-e5f6-7890-1234-567890abcdef": [
+    {
+      "timestamp": "2025-06-18T17:58:27.851Z",
+      "status": "up",
+      "latency": 14
+    },
+    {
+      "timestamp": "2025-06-18T17:57:06.068Z",
+      "status": "up",
+      "latency": 26
+    },
+    {
+      "timestamp": "2025-06-18T17:52:03.182Z",
+      "status": "up",
+      "latency": 14
+    }
+  ],
+  "b2c3d4e5-f6a7-8901-2345-67890abcdef1": [
+    {
+      "timestamp": "2025-06-18T17:58:26.933Z",
+      "status": "up",
+      "latency": 168
+    },
+    {
+      "timestamp": "2025-06-18T17:57:05.111Z",
+      "status": "up",
+      "latency": 151
+    },
+    {
+      "timestamp": "2025-06-18T17:52:02.264Z",
+      "status": "up",
+      "latency": 183
+    }
+  ],
+  "92ec5925-d08c-4d11-8d3c-84dae5dbf2ec": [
+    {
+      "timestamp": "2025-06-18T17:58:26.766Z",
+      "status": "down",
+      "latency": -1
+    },
+    {
+      "timestamp": "2025-06-18T17:57:04.956Z",
+      "status": "down",
+      "latency": -1
+    },
+    {
+      "timestamp": "2025-06-18T17:52:02.080Z",
+      "status": "down",
+      "latency": -1
+    }
+  ],
+  "dbed47b3-d881-4bf0-8f00-068cd0dff1bb": [
+    {
+      "timestamp": "2025-06-18T17:58:26.768Z",
+      "status": "up",
+      "latency": 2
+    },
+    {
+      "timestamp": "2025-06-18T17:57:04.989Z",
+      "status": "up",
+      "latency": 13
+    },
+    {
+      "timestamp": "2025-06-18T17:52:02.085Z",
+      "status": "up",
+      "latency": 3
+    }
+  ]
+}

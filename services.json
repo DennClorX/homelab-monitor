@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "name": "Cloudflare DNS",
+    "type": "ip",
+    "target": "1.1.1.1"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+    "name": "Github",
+    "type": "url",
+    "target": "https://github.com/"
+  },
+  {
+    "id": "92ec5925-d08c-4d11-8d3c-84dae5dbf2ec",
+    "name": "Random Web",
+    "type": "ip",
+    "target": "https://random-url.com/"
+  },
+  {
+    "id": "dbed47b3-d881-4bf0-8f00-068cd0dff1bb",
+    "name": "Monitor",
+    "type": "ip",
+    "target": "localhost:3000"
+  }
+]
