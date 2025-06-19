@@ -113,3 +113,7 @@ Getting your dashboard up and running is incredibly simple.
 
 
 This project was created with significant assistance from the AI model **Gemini 2.5 Pro**. Its capabilities in code generation, debugging, and feature implementation were instrumental in the development process.
+
+## License
+
+MIT
