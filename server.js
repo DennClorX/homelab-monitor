@@ -8,7 +8,7 @@ const cors = require('cors');
 const ping = require('ping');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 const SERVICES_PATH = path.join(__dirname, 'services.json');
 const PINGS_PATH = path.join(__dirname, 'pings.json');
